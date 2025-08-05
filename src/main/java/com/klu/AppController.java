@@ -27,6 +27,7 @@ public class AppController {
 	public List<Product> display() {
 		return s.displayData();
 	}
+	
 
 	@PutMapping("/update")
 	public String update(@RequestBody Product p) {
