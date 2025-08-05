@@ -9,6 +9,8 @@ public class Service {
 	@Autowired
 	Repo r1;
 
+
+
 	public String insertData(Product p) {
 		r1.save(p);
 		return "Insert success";
